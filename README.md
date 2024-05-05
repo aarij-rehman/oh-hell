@@ -1,6 +1,6 @@
 ## Oh Hell!
 - The official rules can be found here: `https://www.pagat.com/exact/ohhell.html`. 
-- Our variation "Oh Hell!" has the following rules:
+- Our variation of "Oh Hell!" has the following rules:
     1. In the interest of time, we start with 1 card and go up to the max number of cards possible, but do not go back down to 1.
     2. Cards can be dealt in any way the dealer chooses. The dealer is the one who leads the round. And the dealer rotates clockwise.
     3. A player who leads a trick cannot be the one to "break" the trump suit, they can only lead with the trump if someone else has played it earlier in the round.
