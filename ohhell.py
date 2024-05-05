@@ -4,7 +4,7 @@ from typing import List
 
 
 
-DECK_SIZE = 54
+DECK_SIZE = 8
 with open("VERSION") as file:
     GAME_VERSION = file.read()
 SCORE_MULTIPLIER = 10
@@ -48,13 +48,16 @@ def enter_tricks_won(players: List[Player], round: int):
 
 
 def update_scores(players: List[Player]):
-    print("Current Scores")
     for player in players:
         if player.bids != player.wins:
             player.score -= abs(player.wins - player.bids) * 10
         else:
             player.score += 20 + (10 * player.bids)
+
+    print("Current Scores")
+    for player in sorted(players, key=lambda x:x.score, reverse=True):
         print(f"{player.name}: {player.score} points")
+
 
 def display_winner(players: List[Player]):
     players.sort(key=lambda x:x.score, reverse=True)
