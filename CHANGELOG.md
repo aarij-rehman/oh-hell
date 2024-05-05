@@ -1,3 +1,5 @@
+[comment] Before merging to main please refer to the semantic version documentation to correctly increment the project version: https://semver.org/
+
 ## [0.1.0]
 ### Added
 - Added README, VERSION, and CHANGELOG files
