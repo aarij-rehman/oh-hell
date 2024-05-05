@@ -4,7 +4,7 @@ from typing import List
 
 
 
-DECK_SIZE = 8
+DECK_SIZE = 54
 with open("VERSION") as file:
     GAME_VERSION = file.read()
 SCORE_MULTIPLIER = 10
