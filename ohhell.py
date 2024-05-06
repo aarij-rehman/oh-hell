@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 
-DECK_SIZE = 10
+DECK_SIZE = 52
 SCORE_MULTIPLIER = 10
 with open("VERSION") as file:
     GAME_VERSION = file.read()
